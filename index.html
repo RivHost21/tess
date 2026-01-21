@@ -196,7 +196,7 @@ function buka(){
 // RSVP WA
 function kirimRSVP(status){
   const nama = document.getElementById("namaTamu").innerText || "Tamu Undangan";
-  const pesan = `Assalamu’alaikum,%0ASaya ${nama}, *${status}* di acara pernikahan Aditya & Maharani tanggal 26 Januari 2026.%0ATerima kasih.`;
+  const pesan = `Assalamu’alaikum,%0ASaya ${nama}, *${status}* di acara pernikahan kalian`;
   const nomorWA = "628988445100"; // ganti nomor WA
   const url = `https://wa.me/${nomorWA}?text=${pesan}`;
   window.open(url,"_blank");
